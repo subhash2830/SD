@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "c2a1f6c5b1557fff",
+    "type": "split",
+    "children": [
+      {
+        "id": "c429771a14899f71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2446047bcdd46be2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VPLS/Basic H-VPLS.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basic H-VPLS"
+            }
+          },
+          {
+            "id": "2af89846d52e511f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VPLS/Basic H-VPLS.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basic H-VPLS"
+            }
+          },
+          {
+            "id": "aac41948c3597622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b26d9150c53188d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "de4a9a2ef6fe3fe1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67865f44c1253b91",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "40967ffa700d8e4b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9e1d2e0d47bf07b6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "668d51f978efa6e8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 225.5
+  },
+  "right": {
+    "id": "c662a9ff19277e9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6c76e1f1da1e8bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ddef2e911e0a66f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vxlan/VXLAN EVPN.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for VXLAN EVPN"
+            }
+          },
+          {
+            "id": "989bc64d94ae95d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vxlan/VXLAN EVPN.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from VXLAN EVPN"
+            }
+          },
+          {
+            "id": "2d71a714262cd983",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e68472c9e1b447e3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Vxlan/VXLAN EVPN.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of VXLAN EVPN"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "aac41948c3597622",
+  "lastOpenFiles": [
+    "Pasted image 20260625134733.png",
+    "Git.md",
+    "VPLS/Pasted image 20260625152348.png",
+    "VPLS/VPLS_BGP_only.txt.md",
+    "ISIS/isis IPv6 Topology.md",
+    "Switching/LB and FW.md",
+    "Switching/Layer 2 fundamentals.md",
+    "Switching/L2 key topics.md",
+    "Switching/L2 key topics -2.md",
+    "VPLS/Basic H-VPLS + QnQ.md",
+    "VPLS/Basic H-VPLS + IP routing.md",
+    "VPLS/Basic H-VPLS.md",
+    "Others/Basic H-VPLS + BGP.md",
+    "VPLS/MAC Protection.md",
+    "VPLS/VPLS with BGP  only ( nei learn + Label Signalling).md",
+    "VPLS/VPLS BGP AD Nei + LDP signalling.md",
+    "VPLS/VPLS Basic.md",
+    "VPLS/R-VPLS.md",
+    "VPLS/Basic H-VPLS with Redundancy.md",
+    "VPLS/Basic H-VPLS.txt.md",
+    "Vxlan/vxlan.png",
+    "VPLS/VPLS+BGP-AD+LDP_SIgnalling.txt.md",
+    "VPLS/Basic_VPLS_TLDP_Session.txt.md",
+    "ISIS/ISIS_metric.md",
+    "VPLS",
+    "ISIS/ISIS index.md",
+    "Segment Routing SR/SR_Concept-1.pdf",
+    "Segment Routing SR/SR_Concept-2.pdf",
+    "Vxlan/VXLAN EVPN.md",
+    "OSPF/ospf benifits.md",
+    "OSPF/ospf Data structure.md",
+    "VPLS/Design_SR.pdf",
+    "PNG files/TC Notification.png",
+    "PNG files/TCAck.png",
+    "PNG files/STP_Port Roles.png",
+    "PNG files/DBD pkt.png",
+    "PNG files/Hello pkt.png",
+    "PNG files/OSPF Common Header.png",
+    "PNG files/LSA Output analysis.png",
+    "~$P_Communities_Deep_Dive_Notes.docx",
+    "Segment Routing SR",
+    "VPLS/BGP_Communities_Deep_Dive_Notes.docx",
+    "PNG files/VXLAN_Complete_Study_Notes.docx",
+    "Others",
+    "~$localasnoprepend replaceas.xlsx",
+    "Untitled.canvas",
+    "Untitled/Untitled.canvas"
+  ]
+}
