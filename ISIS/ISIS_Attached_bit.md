@@ -9,12 +9,23 @@ status:
 priority:
 
 ---
-Attached bit
+# IS-IS Design Notes (Compact – Architect Level)  
 
- The 4-bit Attached field is set by Level 1/2 routers in their Level 1 LSPs
+  
 
- to indicate to same-area Level 1 routers that they are connected in other areas
+## 1. ATT BIT  
 
+**What:** Flag set by L1-2 router indicating reachability to L2 core. [1](https://nokia-my.sharepoint.com/personal/subhash_chaitram_dundale_nokia_com/Documents/Git/ISIS/ISIS_Default_route_propagation_rule.md)  
 
-R1 (L2) ----   R2  (L1/2)---- R3 (L1)
-	   <Area 45>		<Area 49>
+**Why:** L1 routers cannot see external routes → need default path.  
+
+**How:** L1 installs default route → nearest L1-2 router.  
+
+**Risk:** Chooses closest, not best exit (suboptimal routing).  
+
+**Example:** Branch prefers low-bandwidth DC because it is closer.  
+
+**Takeaway:** Simple but no traffic engineering control.  
+
+  
+

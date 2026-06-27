@@ -9,12 +9,16 @@ status:
 priority:
 
 ---
- By default Level 1-only routers automatically install a default route to the nearest Level 1-2
+## 4. DEFAULT-INFORMATION ORIGINATE  
 
- When ATT bit is set
+**What:** Explicit default route injection command. [1](https://nokia-my.sharepoint.com/personal/subhash_chaitram_dundale_nokia_com/Documents/Git/ISIS/ISIS_Default_route_propagation_rule.md)  
 
- advertise a default route into the IS-IS backbone (level2 LSP)
+**Why:** ATT lacks control → need policy-based routing.  
 
- Use process level command "default-information originate"
+**How:** Advertises default even without it in RIB.  
 
- Which announces default route unconditionally(even if default route is not present in routing table)
+**Risk:** Blackhole if upstream fails.  
+
+**Example:** ISP router advertises default after link failure.  
+
+**Takeaway:** Use with route validation.  
