@@ -30,14 +30,10 @@ flat network scalability issue 
 > area created 
 
 > routing update bw area create loops 
-
->  i.e distance vector behaviour 
-
-> this may cause loops 
+  i.e distance vector behaviour this may cause loops 
 
 > avoid these info pass thr only area 0 
-
-> i.e creating star topology
+  i.e creating star topology
 > 
 > - Flat network → ❌ Not scalable
 - Create areas → ✅ Divide network

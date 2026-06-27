@@ -1,4 +1,4 @@
-[[ospf benifits]]
+[[ospf benifits   CLI-SF-BE-CE-RR]]
 [[ospf Basics]]
 [[ospf area]] 
 [[ospf LSA formate]]
@@ -15,5 +15,6 @@
 [[ospf E1 verser E2]]
 [[ospf Forwarding metric]]
 [[ospf Forwarding address]]
+[[ospf adv topic-2]]
 
 
