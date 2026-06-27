@@ -355,20 +355,43 @@ This design makes IS-IS **highly extensible**, allowing new features (IPv6, MPLS
 ---  
 
   
-
-## 6. Best Practices  
+# IS-IS Traffic Engineering (TE Extensions)  
 
   
 
-- ✅ Always enable authentication (TLV 10)  
+## 1. Architect Notes (Clear + Practical)  
 
-- ✅ Use extended TLVs (22, 135) in modern networks  
+  
 
-- ✅ Keep MTU consistent across network  
+- What: TE extensions add additional link attributes (bandwidth, delay, resources) into IS-IS LSDB.  
 
-- ✅ Validate NLPID (protocol support)  
+- Why: Normal IS-IS uses only cost metric → insufficient for advanced traffic engineering.  
 
-- ✅ Monitor LSP contents for troubleshooting  
+- How:  
+
+- Uses extended TLVs (like TLV 22, 135)  
+
+- Advertises link bandwidth and constraints  
+
+- Risk:  
+
+- Increased LSDB size  
+
+- Higher complexity in design and troubleshooting  
+
+- Example:  
+
+- MPLS TE uses bandwidth info to compute optimal tunnel path  
+
+- Takeaway:  
+
+TE extensions enable intelligent path selection beyond simple metrics.  
+
+  
+
+👉 Interview Angle:  
+
+TE extensions allow IS-IS to advertise link attributes for MPLS and advanced traffic engineering.  
 
   
 
@@ -376,21 +399,36 @@ This design makes IS-IS **highly extensible**, allowing new features (IPv6, MPLS
 
   
 
-## 7. Real-World Observations  
+## 2. Interview Answer  
 
   
 
-- Service providers:  
+- IS-IS TE extensions enhance routing by including bandwidth and link constraints.  
 
-- Heavy use of TLV 22 & 135 for TE  
+- Used in MPLS networks for optimized traffic path computation.  
 
-- Enterprise:  
+  
 
-- Often still see mixed TLV usage (legacy + modern)  
+- S: Network required bandwidth-aware path selection.  
 
-- Operations:  
+- T: Avoid congestion on links.  
 
-- Dynamic hostname TLV widely used for troubleshooting  
+- A: Enabled IS-IS TE extensions.  
+
+- R: Traffic distributed based on link capacity.  
+
+  
+
+- Final Line:  
+
+TE extensions transform IS-IS from simple routing to intelligent path computation.
+  
+
+---  
+
+  
+
+
 
   
 
@@ -398,14 +436,3 @@ This design makes IS-IS **highly extensible**, allowing new features (IPv6, MPLS
 
   
 
-## 8. Key Takeaways  
-
-  
-
-- TLVs are core to IS-IS flexibility  
-
-- Extended TLVs enable large-scale deployments  
-
-- Authentication and MTU consistency are critical  
-
-- Modern networks rely on TLV 135 over 128/130
