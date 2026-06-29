@@ -9,17 +9,23 @@
 			or we need to use allowas-in on CE (works in inbound direction)
 
 2  > PE CE protocol EIGRP
-			Cost-community - carries EIGRP route metric value
-			rule for SOO
-			if the route is sent or received on the interface has the same SOO value as configured on the interface the route is discarded
-			if route is sent or received on the interface has different SOO value as configured on the interface value is preserved
-			soo value is carried in EIGRP as well
-			Same soo on PE interface facing CE
-			Different soo on PE interface facing CE
-			Soo configured on CE interface as well
-			Same AS number    > routes consider internal  metric is recovered from MED value 
-			Different AS number > routes consider external  med value is not copied as metric but seed metric is used
-			in both cases we need to mention seed metric
+- **Cost Community**:
+    - EIGRP metric is not native to BGP → SP encodes it in **BGP cost community** and carries across core.
+    - On the remote PE, it is converted back to EIGRP metric.
+- **Same AS (CE–CE appears internal)**:
+    - Metric is reconstructed using MED (via cost community).
+    - Routes treated as **internal EIGRP** → better preference.
+- **Different AS**:
+    - Treated as **external EIGRP**.
+    - Original metric is NOT directly trusted → **seed metric must be configured**.
+- **Seed Metric (mandatory)**:
+    - Without seed metric → redistributed routes may get metric 0 or invalid → no proper path selection.
+- **SoO (Site of Origin)**:
+    - Tag applied at PE-CE edge.
+    - **Rule**:
+        - If incoming route has SAME SoO as interface → DROP (loop prevention).
+        - If DIFFERENT SoO → accept and preserve.
+    - Carried inside MPLS VPN (via BGP extended community).
 
 3 > PE CE protocol OSPF
 		mutual redistribution is required between OSPF and BGP

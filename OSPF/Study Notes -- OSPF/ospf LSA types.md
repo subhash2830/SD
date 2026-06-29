@@ -1,0 +1,7 @@
+| Name             | Originator | Data                              | Flooding Scope | Function                                                                                                                        |
+| ---------------- | ---------- | --------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Router LSA       | Router     | Rid and router links              | Areal level    | ) each router generate router LSA for its ospf enable interface   and 2) All router link within area are represented single LSA |
+| Nw LSA           | DR         | Mask , Number of connectd routers | Areal level    | distibute information of Broadcast domain to rest of ospf area and Shared number of connected routers                           |
+| Summery LSA      | ABR        | Summary n/w number                | Areal level    | advertised nw in one area to another area                                                                                       |
+| ASBR summary LSA | ABR        | Rid of ASBR                       | Areal level    | Reahbility ASBR (Shared external redistibution points )                                                                         |
+| External LSA     | ASBR       | External Domain information       | Domain level   | Exteral Domain information                                                                                                      |

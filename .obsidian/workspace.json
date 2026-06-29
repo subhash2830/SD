@@ -8,35 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2446047bcdd46be2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VPLS/Basic H-VPLS.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basic H-VPLS"
-            }
-          },
-          {
-            "id": "2af89846d52e511f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VPLS/Basic H-VPLS.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basic H-VPLS"
-            }
-          },
-          {
             "id": "aac41948c3597622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSPF/ospf Advcance Topic.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ospf Advcance Topic"
+            }
+          },
+          {
+            "id": "79a448f18abb4056",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,9 +34,63 @@
               "icon": "lucide-file",
               "title": "Git"
             }
+          },
+          {
+            "id": "e488e7dc77df9898",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
+          },
+          {
+            "id": "61056a950b81c9d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Others/DHCP.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DHCP"
+            }
+          },
+          {
+            "id": "6073826e1015dbf0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "ISIS/TLV.png"
+              },
+              "icon": "lucide-image",
+              "title": "TLV"
+            }
+          },
+          {
+            "id": "889a41c235dece51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISIS interview STAR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ISIS interview STAR"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -117,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 388.5
   },
   "right": {
     "id": "c662a9ff19277e9f",
@@ -203,53 +243,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aac41948c3597622",
+  "active": "67865f44c1253b91",
   "lastOpenFiles": [
-    "Pasted image 20260625134733.png",
-    "Git.md",
-    "VPLS/Pasted image 20260625152348.png",
-    "VPLS/VPLS_BGP_only.txt.md",
-    "ISIS/isis IPv6 Topology.md",
-    "Switching/LB and FW.md",
-    "Switching/Layer 2 fundamentals.md",
-    "Switching/L2 key topics.md",
-    "Switching/L2 key topics -2.md",
-    "VPLS/Basic H-VPLS + QnQ.md",
-    "VPLS/Basic H-VPLS + IP routing.md",
-    "VPLS/Basic H-VPLS.md",
-    "Others/Basic H-VPLS + BGP.md",
-    "VPLS/MAC Protection.md",
-    "VPLS/VPLS with BGP  only ( nei learn + Label Signalling).md",
-    "VPLS/VPLS BGP AD Nei + LDP signalling.md",
-    "VPLS/VPLS Basic.md",
-    "VPLS/R-VPLS.md",
-    "VPLS/Basic H-VPLS with Redundancy.md",
-    "VPLS/Basic H-VPLS.txt.md",
-    "Vxlan/vxlan.png",
-    "VPLS/VPLS+BGP-AD+LDP_SIgnalling.txt.md",
-    "VPLS/Basic_VPLS_TLDP_Session.txt.md",
-    "ISIS/ISIS_metric.md",
-    "VPLS",
-    "ISIS/ISIS index.md",
+    "BGP/BGP support files/BGP_Hello.png",
+    "ISIS/TLV.png",
+    "Switching/SF- Notes/L2 key topics.md",
+    "Others/Others-files/Arp.md",
+    "Switching/SF- Notes",
+    "Others/Others-files/LFA.md",
+    "Others/Other Notes",
+    "Others/Untitled.md",
+    "Others/Others-files/DHCP.md",
+    "Others/Others-files",
+    "Switching/SF- Notes/RSTP.md",
+    "Switching/SF - Switching/Root bridge ACK.md",
+    "Switching/SF - Switching",
+    "Switching/SF - Switching/STP_Port Roles.png",
+    "Switching/SF - Switching/TC Notification.png",
+    "Switching/SF - Switching/TCAck.png",
+    "OSPF/Support file - OSPF/Common Header for LSA Pkt.png",
+    "PNG files/~$LAN_Complete_Study_Notes.docx",
+    "Switching/SF - Switching/backbone.png",
+    "VPLS/VPLS Support Files/Basic H-VPLS + BGP.md",
+    "OSPF/Support file - OSPF/PDU type.png",
+    "OSPF/Support file - OSPF/DBD pkt.png",
+    "OSPF/Study Notes -- OSPF/ospf Data structure.md",
+    "OSPF/Study Notes -- OSPF/ospf authentication.md",
+    "OSPF/Study Notes -- OSPF/ospf Adjancies vs neighbourship.md",
+    "Segment Routing SR/Study Note - SR/SRv6.md",
+    "OSPF/Study Notes -- OSPF",
+    "OSPF/Support file - OSPF",
+    "ISIS LFA.md",
+    "ISIS interview STAR.md",
+    "Segment Routing SR/Study Note - SR/SR_Design_Scenarios.md",
+    "Segment Routing SR/Study Note - SR/Design_SR.pdf",
+    "Segment Routing SR/Study Note - SR",
+    "Segment Routing SR/Study Note - SR/SRv6_MM.md",
+    "Segment Routing SR/Study Note - SR/SR_Core_Concepts_CCDE.md",
+    "Segment Routing SR/Study Note - SR/SR_Advanced_Concepts_CCDE.md",
     "Segment Routing SR/SR_Concept-1.pdf",
-    "Segment Routing SR/SR_Concept-2.pdf",
-    "Vxlan/VXLAN EVPN.md",
-    "OSPF/ospf benifits.md",
-    "OSPF/ospf Data structure.md",
-    "VPLS/Design_SR.pdf",
-    "PNG files/TC Notification.png",
-    "PNG files/TCAck.png",
-    "PNG files/STP_Port Roles.png",
-    "PNG files/DBD pkt.png",
-    "PNG files/Hello pkt.png",
-    "PNG files/OSPF Common Header.png",
-    "PNG files/LSA Output analysis.png",
-    "~$P_Communities_Deep_Dive_Notes.docx",
-    "Segment Routing SR",
-    "VPLS/BGP_Communities_Deep_Dive_Notes.docx",
-    "PNG files/VXLAN_Complete_Study_Notes.docx",
-    "Others",
-    "~$localasnoprepend replaceas.xlsx",
+    "VPLS/Study Notes - VPLS/Basic H-VPLS.md",
+    "VPLS/Study Notes - VPLS/MAC Protection.md",
+    "VPLS/Study Notes - VPLS/R-VPLS.md",
+    "VPLS/VPLS Support Files/Pasted image 20260625152348 1.png",
+    "VPLS/Study Notes - VPLS/VPLS Basic.md",
+    "VPLS/VPLS Support Files/Basic_VPLS_TLDP_Session.txt.md",
+    "VPLS/VPLS Support Files/Basic H-VPLS.txt.md",
+    "VPLS/Study Notes - VPLS/Basic H-VPLS + BGP.md",
     "Untitled.canvas",
     "Untitled/Untitled.canvas"
   ]
