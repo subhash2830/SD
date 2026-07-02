@@ -405,3 +405,14 @@ SR Policy = A configured path (segment list) that traffic is steered into.
 13. **SR Policy** = Configured path between headend and tailend
 
 Benefits: Simplifies network (no LDP/RSVP), scalable (stateless core), robust (<50ms failover), efficient (80% utilization), and seamless (coexists with LDP). It's fundamental for SDN, automation, and future networks."
+
+
+**SR is simpler and more scalable than LDP/RSVP-TE:****
+
+- SR advertises labels inside the IGP (no separate label protocol), so you don’t need IGP↔label synchronization.
+    
+- SR provides traffic engineering without soft-state signaling: you build TE paths by programming a list of SIDs as an MPLS label stack (no RSVP refresh/state).
+    
+- SR can follow ECMP and is IGP-aware (prefix and adjacency SIDs are known network-wide), so SR-TE is ECMP-friendly.
+    
+- Fast-reroute is handled with TI-LFA in SR, removing the need for RSVP-TE-based FRR and its extra state.
